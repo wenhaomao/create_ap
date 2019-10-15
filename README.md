@@ -1,3 +1,8 @@
+According the following issue, make two edits to a new file "edit_create_ap":
+https://github.com/oblique/create_ap/issues/107   
+
+After "sudo make install", replace original "/usr/bin/create_ap" with "edit_create_ap", don't change its permission 755.
+
 ## Features
 * Create an AP (Access Point) at any channel.
 * Choose one of the following encryptions: WPA, WPA2, WPA/WPA2, Open (no encryption).
